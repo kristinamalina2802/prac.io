@@ -74,7 +74,7 @@ def main():
                 grade = float(input("Введите оценку (2-5): "))
                 calculator.add_grade(grade)
             except ValueError:
-                print("❌ Пожалуйста, введите число!")
+                print("Пожалуйста, введите число!")
         
         elif choice == "2":
             calculator.show_grades()
@@ -100,4 +100,5 @@ def main():
 
 # Запуск программы
 if __name__ == "__main__":
+
     main()
